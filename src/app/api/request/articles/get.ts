@@ -11,7 +11,8 @@ interface PromoItemsRaw {
     url: string;
   };
 }
-interface TagRaw {
+
+export interface TagRaw {
   slug: string;
   text: string;
 }
